@@ -13,7 +13,7 @@ export default function App() {
     const [diferenca, setDiferenca] = useState('');
 
     useEffect(()=>{
-        setQuantidade('08:48:00');
+        setQuantidade('08:00:00');
     }, []);
 
     useEffect(()=>{
